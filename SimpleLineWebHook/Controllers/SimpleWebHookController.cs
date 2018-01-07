@@ -9,6 +9,7 @@ namespace SimpleLineWebHook.Controllers
 {
     public class SimpleWebHookController : isRock.LineBot.LineWebHookControllerBase
     {
+        [Route("api/SimpleWebHook")]
         [HttpPost]
         public IHttpActionResult POST()
         {
